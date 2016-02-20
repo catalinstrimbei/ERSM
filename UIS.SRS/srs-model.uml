@@ -59,4 +59,19 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_ZVjCANe7EeWlxbpwMMSTPQ" name="faculty staff" type="_-RDWYNe5EeWlxbpwMMSTPQ" association="_ZVhM0Ne7EeWlxbpwMMSTPQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ZVjCAde7EeWlxbpwMMSTPQ" name="proceed evaluation" type="_VeJ5sNe7EeWlxbpwMMSTPQ" association="_ZVhM0Ne7EeWlxbpwMMSTPQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CE8z4Ne8EeWlxbpwMMSTPQ" name="Confirm Admission Results"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JExFsNe8EeWlxbpwMMSTPQ" memberEnd="_JE0JANe8EeWlxbpwMMSTPQ _JE1XINe8EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JEy64Ne8EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JEzh8Ne8EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JE0JANe8EeWlxbpwMMSTPQ" name="confirm admission results" type="_CE8z4Ne8EeWlxbpwMMSTPQ" association="_JExFsNe8EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JE1XINe8EeWlxbpwMMSTPQ" name="candidate" type="_gxAY4Ne5EeWlxbpwMMSTPQ" association="_JExFsNe8EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Jr1swNe8EeWlxbpwMMSTPQ" memberEnd="_Jr3h8de8EeWlxbpwMMSTPQ _Jr4JANe8EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jr264Ne8EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jr3h8Ne8EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jr3h8de8EeWlxbpwMMSTPQ" name="faculty staff" type="_-RDWYNe5EeWlxbpwMMSTPQ" association="_Jr1swNe8EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jr4JANe8EeWlxbpwMMSTPQ" name="confirm admission results" type="_CE8z4Ne8EeWlxbpwMMSTPQ" association="_Jr1swNe8EeWlxbpwMMSTPQ"/>
+  </packagedElement>
 </uml:Model>
