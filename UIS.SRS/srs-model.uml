@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_XcrGwNe5EeWlxbpwMMSTPQ" name="RootElement">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_XrlFcNe5EeWlxbpwMMSTPQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_am3x4Ne5EeWlxbpwMMSTPQ" name="Create On-line Account"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bxYdMNe5EeWlxbpwMMSTPQ" name="Fill Faculty Application"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_gxAY4Ne5EeWlxbpwMMSTPQ" name="Candidate"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g17VINe5EeWlxbpwMMSTPQ" memberEnd="_g2EfENe5EeWlxbpwMMSTPQ _g2EfEde5EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g17VIde5EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g17VIte5EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g2EfENe5EeWlxbpwMMSTPQ" name="usecase1" type="_am3x4Ne5EeWlxbpwMMSTPQ" association="_g17VINe5EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_g2EfEde5EeWlxbpwMMSTPQ" name="actor1" type="_gxAY4Ne5EeWlxbpwMMSTPQ" association="_g17VINe5EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2SIYANe5EeWlxbpwMMSTPQ" memberEnd="_2SIYA9e5EeWlxbpwMMSTPQ _2SIYBNe5EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2SIYAde5EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2SIYAte5EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2SIYA9e5EeWlxbpwMMSTPQ" name="fill faculty application" type="_bxYdMNe5EeWlxbpwMMSTPQ" association="_2SIYANe5EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2SIYBNe5EeWlxbpwMMSTPQ" name="candidate" type="_gxAY4Ne5EeWlxbpwMMSTPQ" association="_2SIYANe5EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2xWqoNe5EeWlxbpwMMSTPQ" name="Get Admission Procedure Information"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9jWi4Ne5EeWlxbpwMMSTPQ" memberEnd="_9jWi49e5EeWlxbpwMMSTPQ _9jWi5Ne5EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9jWi4de5EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9jWi4te5EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9jWi49e5EeWlxbpwMMSTPQ" name="get admission procedure information" type="_2xWqoNe5EeWlxbpwMMSTPQ" association="_9jWi4Ne5EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9jWi5Ne5EeWlxbpwMMSTPQ" name="candidate" type="_gxAY4Ne5EeWlxbpwMMSTPQ" association="_9jWi4Ne5EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-RDWYNe5EeWlxbpwMMSTPQ" name="Faculty Staff"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CAQzENe6EeWlxbpwMMSTPQ" memberEnd="_CAQzE9e6EeWlxbpwMMSTPQ _CAQzFNe6EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CAQzEde6EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CAQzEte6EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CAQzE9e6EeWlxbpwMMSTPQ" name="faculty staff" type="_-RDWYNe5EeWlxbpwMMSTPQ" association="_CAQzENe6EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CAQzFNe6EeWlxbpwMMSTPQ" name="get admission procedure information" type="_2xWqoNe5EeWlxbpwMMSTPQ" association="_CAQzENe6EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GBNgANe6EeWlxbpwMMSTPQ" name="Get Admission Results"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_J2RGANe6EeWlxbpwMMSTPQ" memberEnd="_J2RGA9e6EeWlxbpwMMSTPQ _J2RGBNe6EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J2RGAde6EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J2RGAte6EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J2RGA9e6EeWlxbpwMMSTPQ" name="get admission results" type="_GBNgANe6EeWlxbpwMMSTPQ" association="_J2RGANe6EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J2RGBNe6EeWlxbpwMMSTPQ" name="candidate" type="_gxAY4Ne5EeWlxbpwMMSTPQ" association="_J2RGANe6EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KcQH8Ne6EeWlxbpwMMSTPQ" memberEnd="_KcQH89e6EeWlxbpwMMSTPQ _KcQH9Ne6EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KcQH8de6EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KcQH8te6EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KcQH89e6EeWlxbpwMMSTPQ" name="faculty staff" type="_-RDWYNe5EeWlxbpwMMSTPQ" association="_KcQH8Ne6EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KcQH9Ne6EeWlxbpwMMSTPQ" name="get admission results" type="_GBNgANe6EeWlxbpwMMSTPQ" association="_KcQH8Ne6EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VeJ5sNe7EeWlxbpwMMSTPQ" name="Proceed Evaluation"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZVhM0Ne7EeWlxbpwMMSTPQ" memberEnd="_ZVjCANe7EeWlxbpwMMSTPQ _ZVjCAde7EeWlxbpwMMSTPQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZVia8Ne7EeWlxbpwMMSTPQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZVia8de7EeWlxbpwMMSTPQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZVjCANe7EeWlxbpwMMSTPQ" name="faculty staff" type="_-RDWYNe5EeWlxbpwMMSTPQ" association="_ZVhM0Ne7EeWlxbpwMMSTPQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZVjCAde7EeWlxbpwMMSTPQ" name="proceed evaluation" type="_VeJ5sNe7EeWlxbpwMMSTPQ" association="_ZVhM0Ne7EeWlxbpwMMSTPQ"/>
+  </packagedElement>
+</uml:Model>
