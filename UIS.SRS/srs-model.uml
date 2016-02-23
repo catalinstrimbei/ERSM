@@ -74,4 +74,108 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Jr3h8de8EeWlxbpwMMSTPQ" name="faculty staff" type="_-RDWYNe5EeWlxbpwMMSTPQ" association="_Jr1swNe8EeWlxbpwMMSTPQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Jr4JANe8EeWlxbpwMMSTPQ" name="confirm admission results" type="_CE8z4Ne8EeWlxbpwMMSTPQ" association="_Jr1swNe8EeWlxbpwMMSTPQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YW9lANmLEeW94sBcgO7rQg" name="Course Holder"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_bjiOsNmLEeW94sBcgO7rQg" name="Faculty Clerk"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_etVRMNmLEeW94sBcgO7rQg" name="University Management"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qCucINmLEeW94sBcgO7rQg" name="Set/Update Curriculum/Syllabus of Study Programs"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4s7mwNmLEeW94sBcgO7rQg" name="Set/Update Study Formations"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8FF1YNmLEeW94sBcgO7rQg" name="Set/Update Teaching Staff Workplan"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FfViQNmMEeW94sBcgO7rQg" name="Set/Update Position-record in Staff Workplan"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LD6lINmMEeW94sBcgO7rQg" name="Set/Update Timetable Preferences"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SBLSMNmMEeW94sBcgO7rQg" name="Staff Workplan Aproval"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VS6vwNmMEeW94sBcgO7rQg" name="Get Staff Workplan Position Info"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YtLQINmMEeW94sBcgO7rQg" name="Get Overall Report on Teaching Staff Workplan"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fY7WcNmMEeW94sBcgO7rQg" name="Get Individual Timetable Report"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_n3dB8NmMEeW94sBcgO7rQg" name="Get Classroom Timetable Report"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LWM_QNmdEeW94sBcgO7rQg" memberEnd="_LWWJMNmdEeW94sBcgO7rQg _LWWJMdmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LWQCkNmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LWTF4NmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LWWJMNmdEeW94sBcgO7rQg" name="set/update curriculum/syllabus of study programs" type="_qCucINmLEeW94sBcgO7rQg" association="_LWM_QNmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LWWJMdmdEeW94sBcgO7rQg" name="faculty clerk" type="_bjiOsNmLEeW94sBcgO7rQg" association="_LWM_QNmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MNa7INmdEeW94sBcgO7rQg" memberEnd="_MNa7I9mdEeW94sBcgO7rQg _MNa7JNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MNa7IdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MNa7ItmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MNa7I9mdEeW94sBcgO7rQg" name="set/update study formations" type="_4s7mwNmLEeW94sBcgO7rQg" association="_MNa7INmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MNa7JNmdEeW94sBcgO7rQg" name="faculty clerk" type="_bjiOsNmLEeW94sBcgO7rQg" association="_MNa7INmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_M46IINmdEeW94sBcgO7rQg" memberEnd="_M46II9mdEeW94sBcgO7rQg _M46IJNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M46IIdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M46IItmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M46II9mdEeW94sBcgO7rQg" name="set/update teaching staff workplan" type="_8FF1YNmLEeW94sBcgO7rQg" association="_M46IINmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M46IJNmdEeW94sBcgO7rQg" name="faculty clerk" type="_bjiOsNmLEeW94sBcgO7rQg" association="_M46IINmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N085oNmdEeW94sBcgO7rQg" memberEnd="_N085o9mdEeW94sBcgO7rQg _N085pNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N085odmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N085otmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N085o9mdEeW94sBcgO7rQg" name="staff workplan aproval" type="_SBLSMNmMEeW94sBcgO7rQg" association="_N085oNmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N085pNmdEeW94sBcgO7rQg" name="university management" type="_etVRMNmLEeW94sBcgO7rQg" association="_N085oNmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ob0FUNmdEeW94sBcgO7rQg" memberEnd="_Ob0FU9mdEeW94sBcgO7rQg _Ob0FVNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ob0FUdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ob0FUtmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ob0FU9mdEeW94sBcgO7rQg" name="get overall report on teaching staff workplan" type="_YtLQINmMEeW94sBcgO7rQg" association="_Ob0FUNmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ob0FVNmdEeW94sBcgO7rQg" name="university management" type="_etVRMNmLEeW94sBcgO7rQg" association="_Ob0FUNmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PQaLANmdEeW94sBcgO7rQg" memberEnd="_PQaLA9mdEeW94sBcgO7rQg _PQaLBNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PQaLAdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PQaLAtmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PQaLA9mdEeW94sBcgO7rQg" name="get classroom timetable report" type="_n3dB8NmMEeW94sBcgO7rQg" association="_PQaLANmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PQaLBNmdEeW94sBcgO7rQg" name="university management" type="_etVRMNmLEeW94sBcgO7rQg" association="_PQaLANmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Q2AP0NmdEeW94sBcgO7rQg" memberEnd="_Q2AP09mdEeW94sBcgO7rQg _Q2AP1NmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q2AP0dmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q2AP0tmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q2AP09mdEeW94sBcgO7rQg" name="get overall report on teaching staff workplan" type="_YtLQINmMEeW94sBcgO7rQg" association="_Q2AP0NmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q2AP1NmdEeW94sBcgO7rQg" name="faculty clerk" type="_bjiOsNmLEeW94sBcgO7rQg" association="_Q2AP0NmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RnFHcNmdEeW94sBcgO7rQg" memberEnd="_RnFHc9mdEeW94sBcgO7rQg _RnFHdNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RnFHcdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RnFHctmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RnFHc9mdEeW94sBcgO7rQg" name="get classroom timetable report" type="_n3dB8NmMEeW94sBcgO7rQg" association="_RnFHcNmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RnFHdNmdEeW94sBcgO7rQg" name="faculty clerk" type="_bjiOsNmLEeW94sBcgO7rQg" association="_RnFHcNmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SLlisNmdEeW94sBcgO7rQg" memberEnd="_SLlis9mdEeW94sBcgO7rQg _SLlitNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SLlisdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SLlistmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SLlis9mdEeW94sBcgO7rQg" name="set/update position-record in staff workplan" type="_FfViQNmMEeW94sBcgO7rQg" association="_SLlisNmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SLlitNmdEeW94sBcgO7rQg" name="course holder" type="_YW9lANmLEeW94sBcgO7rQg" association="_SLlisNmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TQFFkNmdEeW94sBcgO7rQg" memberEnd="_TQFFk9mdEeW94sBcgO7rQg _TQFFlNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TQFFkdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TQFFktmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TQFFk9mdEeW94sBcgO7rQg" name="get staff workplan position info" type="_VS6vwNmMEeW94sBcgO7rQg" association="_TQFFkNmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TQFFlNmdEeW94sBcgO7rQg" name="course holder" type="_YW9lANmLEeW94sBcgO7rQg" association="_TQFFkNmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UlgAYNmdEeW94sBcgO7rQg" memberEnd="_UlgAY9mdEeW94sBcgO7rQg _UlgAZNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UlgAYdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UlgAYtmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UlgAY9mdEeW94sBcgO7rQg" name="set/update timetable preferences" type="_LD6lINmMEeW94sBcgO7rQg" association="_UlgAYNmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UlgAZNmdEeW94sBcgO7rQg" name="course holder" type="_YW9lANmLEeW94sBcgO7rQg" association="_UlgAYNmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WaoWANmdEeW94sBcgO7rQg" memberEnd="_WaoWA9mdEeW94sBcgO7rQg _WaoWBNmdEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaoWAdmdEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WaoWAtmdEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WaoWA9mdEeW94sBcgO7rQg" name="get individual timetable report" type="_fY7WcNmMEeW94sBcgO7rQg" association="_WaoWANmdEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WaoWBNmdEeW94sBcgO7rQg" name="course holder" type="_YW9lANmLEeW94sBcgO7rQg" association="_WaoWANmdEeW94sBcgO7rQg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pZcGwNoIEeW94sBcgO7rQg" memberEnd="_pZdU4doIEeW94sBcgO7rQg _pZdU4toIEeW94sBcgO7rQg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pZct0NoIEeW94sBcgO7rQg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pZdU4NoIEeW94sBcgO7rQg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pZdU4doIEeW94sBcgO7rQg" name="faculty clerk" type="_bjiOsNmLEeW94sBcgO7rQg" association="_pZcGwNoIEeW94sBcgO7rQg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pZdU4toIEeW94sBcgO7rQg" name="set/update position-record in staff workplan" type="_FfViQNmMEeW94sBcgO7rQg" association="_pZcGwNoIEeW94sBcgO7rQg"/>
+  </packagedElement>
 </uml:Model>
